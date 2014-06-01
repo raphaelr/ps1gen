@@ -40,7 +40,7 @@ Usage
 Put the ``ps1gen.m4`` file somewhere on your system (for example, in your home directory),
 change it to your liking, and modify your ``.bashrc`` accordingly: ::
 
-    PS1=`m4 ps1gen.m4`
+    echo "PS1='`m4 ps1gen.m4`'" >> ~/.bashrc
 
 Done! The next time you start bash (or ``source ~/.bashrc``) you can enjoy your new awesome
 prompt!
